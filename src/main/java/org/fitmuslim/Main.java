@@ -1,13 +1,11 @@
 package org.fitmuslim;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
 
-        LoanCalculator calculator = new LoanCalculator();
-        calculator.getInput();
-        calculator.calculateProfit();
-        calculator.displayTotalProfit();
-        calculator.displayROI();
+        SwingUtilities.invokeLater(() -> new LoanCalculatorGUI().setVisible(true));
     }
 
 }
