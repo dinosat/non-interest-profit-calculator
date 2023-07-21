@@ -27,3 +27,9 @@ Upon running the program, the user will be prompted to enter the following value
 - `rent`: The monthly rent.
 
 The program will then calculate the total profit by simulating yearly loan repayments and rental income. It will display the profit for each year and the cumulative total profit. Additionally, it will calculate the ROI based on the initial investment and display the value.
+
+## Output Formatting
+
+The ROI and total profit values are formatted to display only two decimal places after the comma.
+
+Feel free to add any other relevant details or instructions if needed. This README should provide a clear overview of the program and guide users on how to run and utilize the Loan Calculator effectively.
