@@ -27,5 +27,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <build>
+        <finalName>calc</finalName>
+    </build>
 
 </project>
